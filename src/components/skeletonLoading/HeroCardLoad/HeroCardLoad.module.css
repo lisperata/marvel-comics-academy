@@ -1,0 +1,47 @@
+@keyframes grad {
+  0% {
+    background-position: 0;
+  }
+
+  40%,
+  100% {
+    background-position: 170px;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  height: 256px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.image {
+  min-width: 167px;
+  min-height: 250px;
+  border-radius: 100px;
+  background-color: #ccc;
+  background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  animation: grad 1.8s infinite linear;
+}
+
+.title {
+  margin-left: -22%;
+  width: 170px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #ccc;
+  background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  animation: grad 1.8s infinite linear;
+}
+
+.btn {
+  min-width: 180px;
+  min-height: 40px;
+  border-radius: 7px;
+  background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  animation: grad 1.8s infinite linear;
+}

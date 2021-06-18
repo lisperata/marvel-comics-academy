@@ -1,0 +1,6 @@
+.paginator {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 15pt;
+}

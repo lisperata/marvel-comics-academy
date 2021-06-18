@@ -1,0 +1,9 @@
+.linkss {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  background: url('../../images/marvel-logo.png') #03062c center no-repeat;
+  background-size: contain;
+}
